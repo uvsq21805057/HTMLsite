@@ -1,18 +1,56 @@
-p.ZEBI{
-    color: red;
-    background-color: black;
-    font-weight: bold
-}
-
-p.Css{
-    color: blue;
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-color: aquamarine;
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
 }
 
-h2.headline{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo-TER.png') no-repeat;
-    background-size: 100px;
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover{
+    background: #fff;
+    color: #2b1055;
 }
