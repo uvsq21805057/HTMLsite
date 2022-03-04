@@ -23,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 header .logo{
@@ -67,7 +67,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow: hidden;
 }
 
 section::before{
